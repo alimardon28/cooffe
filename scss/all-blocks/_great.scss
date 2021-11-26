@@ -1,0 +1,40 @@
+.great{
+
+    &__container{
+        background-image: url(../images/Bitmapa.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__hero{
+        position: relative;
+        margin: 0;
+        padding: 117px 630px 227px 85px;
+    }
+
+    &__heading{
+        margin: 0;
+        padding: 0;
+        font-family: Fraunces 9pt;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+    }
+
+    &__desc{
+        margin-top: 32px;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        max-width: 407px;
+    }
+}

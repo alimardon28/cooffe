@@ -1,1 +1,36 @@
-// Hero stillar
+.nav{
+
+    &__hero{
+        margin: 0;
+        padding: 0;
+    }
+
+    &__hero--list{
+        display: flex;
+        list-style: none;
+    }
+
+    &__item + &__item{
+        margin-left:33px;
+    }
+
+    &__link{
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+        text-decoration: none;
+    }
+
+    &__link:hover{
+        color:#333D4B;
+    }
+
+    &__link:active{
+        color: #212122;
+    }
+}

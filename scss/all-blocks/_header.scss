@@ -1,1 +1,25 @@
-// Header stillar
+
+/* HEADER CSS */
+.header{
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo{
+        text-decoration: none;
+    }
+
+    &__logo:hover{
+        color:#333D4B;
+        opacity: 0.8;
+    }
+}

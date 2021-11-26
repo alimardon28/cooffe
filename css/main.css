@@ -367,6 +367,7 @@ body {
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  margin-top: 56px;
 }
 
 img {
@@ -388,12 +389,142 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1157;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+.button {
+  position: absolute;
+  width: 217px;
+  height: 56px;
+  left: 85px;
+  bottom: 116px;
+  border-radius: 6px;
+  background-color: #1dcac4;
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  border: none;
+}
+
+.button:hover {
+  background: #66D2CF;
+  color: #fff;
+}
+
+/* HEADER CSS */
+.header {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  text-decoration: none;
+}
+
+.header__logo:hover {
+  color: #333D4B;
+  opacity: 0.8;
+}
+
 .main {
   margin: 0;
+}
+
+.nav__hero {
+  margin: 0;
+  padding: 0;
+}
+
+.nav__hero--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.nav__item + .nav__item {
+  margin-left: 33px;
+}
+
+.nav__link {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #333D4B;
+}
+
+.nav__link:active {
+  color: #212122;
+}
+
+.great__container {
+  background-image: url(../images/Bitmapa.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.great__hero {
+  position: relative;
+  margin: 0;
+  padding: 117px 630px 227px 85px;
+}
+
+.great__heading {
+  margin: 0;
+  padding: 0;
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+}
+
+.great__desc {
+  margin-top: 32px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  max-width: 407px;
 }
 /*# sourceMappingURL=main.css.map */
