@@ -46,14 +46,10 @@
             display: flex;
             flex-direction: column;
             width: 100%;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            background-color: wheat;
         }
     }
 
-    .header--open .nav__list{
+    .header--open .nav__hero--list{
         flex-direction: column;
     }
 }

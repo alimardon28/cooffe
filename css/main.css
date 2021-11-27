@@ -472,12 +472,8 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: wheat;
   }
-  .header--open .nav__list {
+  .header--open .nav__hero--list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -888,6 +884,7 @@ img {
 
 @media only screen and (max-width: 649px) {
   .choose {
+    margin-left: 20px;
     margin-top: 1167px;
   }
   .choose__container {
@@ -1308,6 +1305,9 @@ img {
 }
 
 @media only screen and (max-width: 649px) {
+  .footer {
+    width: 100%;
+  }
   .footer__bottom {
     display: -webkit-box;
     display: -ms-flexbox;
