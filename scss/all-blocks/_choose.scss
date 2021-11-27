@@ -1,0 +1,231 @@
+/* CHOOSE CSS */
+.choose{
+    padding-top: 200px;
+    &__container{
+        background-color:#282F38;
+        margin-top: 288px;
+        width: 1280px;
+        height: 577px;
+    }
+
+    &__us{
+        margin: 0;
+        padding: 0;
+    }
+
+    &__heading{
+        width: 352px;
+        height: 48px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__paragraph{
+        width: 540px;
+        height: 80px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        padding-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__list{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        list-style: none;
+    }
+
+
+  &__item{
+         width: 350px;
+         height: 382px;
+         background: #0E8784;
+         border-radius: 8px;
+         margin-left: auto;
+         margin-right: 42px;
+         margin-top:86px;
+    }
+
+   &__itm::before{
+        content: '';
+        display: block;
+        background-image: url("../images/coffee-bean.png");
+        background-repeat: no-repeat;
+        width:72px;
+        height: 72px;
+        margin-top: 72px;
+        margin-left: 140px;
+    }
+
+    &__item::before{
+        content: '';
+        display: block;
+        background-image: url("../images/Combined-Shape.png");
+        background-repeat: no-repeat;
+        width:72px;
+        height: 72px;
+        margin-top: 72px;
+        margin-left: 140px;
+    }
+
+
+   &__etim::before{
+       content: '';
+       display: block;
+       background-image: url("../images/Combined-Shape1.png");
+       background-repeat: no-repeat;
+       width:72px;
+       height: 72px;
+       margin-top: 72px;
+       margin-left: 140px;
+   }
+
+  &__span{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 300px;
+    height: 32px;
+    position: relative;
+    bottom: 164px;
+    left: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;
+    padding-left: 47px;
+    margin-top: 220px;
+}
+
+&__desc{
+    position: relative;
+    bottom: 152px;
+    width: 300px;
+    height: 78px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    color: #FEFCF7;
+    padding-left: 47px;
+  }
+}
+
+@media only screen and (max-width:1290px){
+ .choose{
+     margin-top: 525px;
+    &__container{
+        width:688px;
+        height:573px;
+    }
+
+    &__us{
+        margin: 0;
+        padding: 0;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item{
+        display: flex;
+        width: 573px;
+        max-height: 180px;
+        margin-right: 158px;
+        margin-top: 46px;
+    }
+   &__desc{
+       width:375px;
+       height:50px;
+   }
+   &__item::before{
+       margin-left: 50px;
+   }
+
+  }
+}
+
+@media only screen and (max-width:649px){
+    .choose{
+        margin-top: 1167px;
+        &__container{
+            width: 327px;
+            height: 902px;
+        }
+         &__heading{
+             width: 279px;
+             height: 28px;
+             font-size: 28px;
+             line-height: 28px;
+             text-align: center;
+         }
+
+         &__paragraph{
+             width: 279px;
+             height: 12px;
+             font-size: 15px;
+             line-height: 25px;
+             text-align: center;
+         }
+        &__list{
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__item{
+            display: flex;
+            width:279px ;
+            max-height: 382px;
+            margin-top: 164px;
+            margin-left: 115px;
+            margin-top: 150px;
+        }
+        &__span{
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            margin-top: 353px;
+            margin-left: -71px;
+        }
+        &__desc{
+            margin-left:-36px;
+            width: 212px;
+            height: 75px;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+        }
+
+        &__item::before{
+           margin-right: -72px;
+           margin-left: 40px;
+        }
+    }
+}

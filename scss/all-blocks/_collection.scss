@@ -1,0 +1,84 @@
+.collection{
+    padding-top: 130px;
+    &__hero{
+        background-image: url(/images/Group.png);
+        background-repeat: no-repeat;
+        background-position:96px;
+        max-width: 200%;
+        min-height: 169px;
+    }
+
+    &__our{
+        position: relative;
+    }
+
+    &__list{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: -50px;
+        left: 30px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__item{
+        margin-left: 30px;
+    }
+
+    &__img{
+      margin-bottom: 71px;
+    }
+
+    &__paragraph{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    }
+
+    &__desc{
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #333D4B;
+        max-width: 255px;
+    }
+}
+
+@media only screen and (max-width:985px) {
+    .collection{
+        &__list{
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__item{
+            display: flex;
+            flex-direction: row;
+        }
+        &__paragraph{
+           margin-right: 30px;
+        }
+        &__desc{
+            max-width: 300px;
+        }
+    }
+}
+
+@media only screen and (max-width:649px) {
+  .collection{
+      &__list{
+          display: flex;
+          flex-direction: column;
+      }
+
+      &__item{
+         display: inline-block;
+      }
+  }
+}

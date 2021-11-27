@@ -9,6 +9,7 @@
     z-index: 1;
     margin: 0;
     padding: 0;
+    
     &__container{
         display: flex;
         align-items: center;
@@ -22,4 +23,11 @@
         color:#333D4B;
         opacity: 0.8;
     }
+}
+
+@media only screen and (max-width:689px) {
+   .header{
+       margin: 0;
+       padding: 0;
+   }
 }

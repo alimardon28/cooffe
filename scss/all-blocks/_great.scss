@@ -1,17 +1,17 @@
 .great{
 
-    &__container{
+    &__hero{
         background-image: url(../images/Bitmapa.jpg);
         background-repeat: no-repeat;
-        background-size: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 1280px;
+        min-height: 600px;
     }
-
     &__hero{
         position: relative;
         margin: 0;
-        padding: 117px 630px 227px 85px;
+        max-height: 367px;
+        padding-top: 117px;
+        padding-left: 85px;
     }
 
     &__heading{
@@ -23,6 +23,7 @@
         font-size: 72px;
         line-height: 72px;
         color: #FEFCF7;
+        max-width: 525px;
     }
 
     &__desc{
@@ -38,3 +39,37 @@
         max-width: 407px;
     }
 }
+
+@media only screen and (max-width: 1270px){
+    .great {
+      padding: 20px 0;
+
+      &__hero{
+          background-image: url(../images/bitmapbg.jpg);
+          border-radius: 5px;
+      }
+    }
+
+}
+
+@media only screen and (max-width: 649px){
+  .great{
+     padding: 18px 0;
+
+     &__hero{
+         background-image: url(../images/Bitmap11bg.jpg);
+         width: 622px;
+         height: 500px;
+
+     }
+
+     &__heading{
+         min-width: 260px;
+     }
+
+     &__desc{
+         max-width: 294px;
+     }
+  }
+}
+
