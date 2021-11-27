@@ -532,6 +532,13 @@ img {
 }
 
 .great__hero {
+  background-image: url(../images/Bitmapa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+
+.great__hero {
   position: relative;
   margin: 0;
   max-height: 367px;
@@ -562,6 +569,33 @@ img {
   mix-blend-mode: normal;
   opacity: 0.8;
   max-width: 407px;
+}
+
+@media only screen and (max-width: 1270px) {
+  .great {
+    padding: 20px 0;
+  }
+  .great__hero {
+    background-image: url(../images/bitmapbg.jpg);
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 649px) {
+  .great {
+    padding: 18px 0;
+  }
+  .great__hero {
+    background-image: url(../images/Bitmap11bg.jpg);
+    width: 100%;
+    height: 500px;
+  }
+  .great__heading {
+    min-width: 260px;
+  }
+  .great__desc {
+    max-width: 294px;
+  }
 }
 
 .collection {
