@@ -1,5 +1,5 @@
 .nav{
-
+    white-space: nowrap;
     &__hero{
         margin: 0;
         padding: 0;
@@ -32,5 +32,11 @@
 
     &__link:active{
         color: #212122;
+    }
+}
+
+@media only screen and (max-width:724px){
+    .nav{
+        display: none;
     }
 }

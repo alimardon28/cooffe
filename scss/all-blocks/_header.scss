@@ -9,7 +9,7 @@
     z-index: 1;
     margin: 0;
     padding: 0;
-    
+
     &__container{
         display: flex;
         align-items: center;
@@ -17,17 +17,43 @@
     }
     &__logo{
         text-decoration: none;
+        flex-shrink: 0;
     }
 
     &__logo:hover{
         color:#333D4B;
         opacity: 0.8;
     }
+
+    &__hamburger{
+        display: none;
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
+    }
 }
 
-@media only screen and (max-width:689px) {
-   .header{
-       margin: 0;
-       padding: 0;
-   }
+@media only screen and (max-width:724px){
+    .header{
+        position: relative;
+        padding:20px 0px;
+
+        &__hamburger{
+            display: inline-block;
+        }
+
+        .header--open .nav {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: wheat;
+        }
+    }
+
+    .header--open .nav__list{
+        flex-direction: column;
+    }
 }
