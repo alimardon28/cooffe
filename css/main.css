@@ -587,7 +587,7 @@ img {
   }
   .great__hero {
     background-image: url(../images/Bitmap11bg.jpg);
-    width: 622px;
+    width: 100%;
     height: 500px;
   }
   .great__heading {
