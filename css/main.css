@@ -532,13 +532,6 @@ img {
 }
 
 .great__hero {
-  background-image: url(../images/Bitmapa.jpg);
-  background-repeat: no-repeat;
-  max-width: 1280px;
-  min-height: 600px;
-}
-
-.great__hero {
   position: relative;
   margin: 0;
   max-height: 367px;
