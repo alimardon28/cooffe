@@ -1,0 +1,54 @@
+/* SITE ABOUT CSS */
+
+.about{
+    padding-top: 26px;
+    &__img{
+        margin: 0;
+        padding: 0;
+        background-image: url("../images/Group7.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        min-height: 450px;
+    }
+    &__text{
+        max-width: 455px;
+        max-height: 176px;
+    }
+
+    &__heading{
+        padding-top: 137px;
+        padding-left: 85px;
+        height: 48px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+
+    &__desc{
+        padding-top: 24px;
+        padding-left: 85px;
+        height: 104px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+}
+
+
+
+@media only screen and (max-width:768px){
+    .about{
+        &__img{
+            background-image: url(../images/Bitmapplan.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            max-width: 100%;
+            min-height: 400px;
+        }
+    }
+}

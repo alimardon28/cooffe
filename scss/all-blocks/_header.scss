@@ -24,7 +24,7 @@
         color:#333D4B;
         opacity: 0.8;
     }
-
+    
     &__hamburger{
         display: none;
         background-color: transparent;
@@ -32,6 +32,11 @@
         font-size: 30px;
     }
 }
+
+.nav__hero--list{
+    padding: 0;
+}
+
 
 @media only screen and (max-width:724px){
     .header{

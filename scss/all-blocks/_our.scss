@@ -1,0 +1,35 @@
+
+/* OUR CSS */
+.our{
+
+    &__commitment{
+        padding: 168px 0;
+    }
+
+    &__heading{
+       font-weight: 900;
+       font-size: 40px;
+       line-height: 48px;
+       color: #333D4B;
+    }
+
+    &__desc{
+        width: 540px;
+        padding-right: 39px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+  }
+
+
+  @media only screen and (max-width:768px){
+    .our{
+       &__text{
+           max-width:281px;
+           max-height: 470px;
+       }
+    }
+  }
